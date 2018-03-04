@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>O Auth</title>
+</head>
+<body class="cyan lighten-5">
+    <nav class="grey darken-3">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo center">O Auth</a>
+        <a href="#" data-activates="main-menu" class="button-collapse show-on-large"><i class="fa fa-bars"></i></a>
+        <ul class="right hide-on-small-only">
+            <li><a href="/auth/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
+          </ul>
+          
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+        <div class="card-panel teal lighten-2">Please login using your google account</div>    
+        <a class="btn red darken-1 login" href="/auth/google"><i class="fa fa-google left"></i> Login With Google</a>
+        <a class="btn blue darken-1 login" href="/auth/facebook"><i class="fa fa-facebook left"></i> Login With Facebok</a>        
+      </div>
+  </body>
+  </html>
